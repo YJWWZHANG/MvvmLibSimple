@@ -59,8 +59,6 @@ dependencies {
     api "io.reactivex.rxjava2:rxkotlin:2.2.0"
     api "io.reactivex.rxjava2:rxandroid:2.1.1"
 
-    api "com.github.qingmei2.rxweaver:rxweaver:0.3.0"
-
     // autodispose
     api "com.uber.autodispose:autodispose-android:1.1.0"
     api "com.uber.autodispose:autodispose-ktx:1.1.0"
@@ -71,10 +69,6 @@ dependencies {
     api "org.kodein.di:kodein-di-generic-jvm:6.3.2"
     api "org.kodein.di:kodein-di-framework-android-core:6.3.2"
     api "org.kodein.di:kodein-di-framework-android-x:6.3.2"
-
-    // arrow
-    api "io.arrow-kt:arrow-core:0.7.3"
-
 
     implementation 'com.blankj:utilcodex:1.23.7'
     implementation 'me.yokeyword:fragmentationx:1.0.1'
