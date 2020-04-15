@@ -49,30 +49,15 @@ dependencies {
     api "androidx.lifecycle:lifecycle-common-java8:2.1.0"
     api "androidx.lifecycle:lifecycle-viewmodel:2.1.0"
 
-    api "androidx.room:room-runtime:2.1.0"
-    api "androidx.room:room-ktx:2.1.0"
-    api "androidx.room:room-rxjava2:2.1.0"
-    kapt "androidx.room:room-compiler:2.1.0"
-
     api "androidx.navigation:navigation-fragment:2.1.0"
     api "androidx.navigation:navigation-ui:2.1.0"
 
     api "androidx.paging:paging-runtime:2.1.0"
     api "androidx.paging:paging-rxjava2:2.1.0"
 
-    // retrofit
-    api "com.squareup.retrofit2:retrofit:2.6.0"
-    api "com.squareup.retrofit2:converter-gson:2.6.0"
-    api "com.squareup.retrofit2:adapter-rxjava2:2.6.0"
-
     // rx
     api "io.reactivex.rxjava2:rxkotlin:2.2.0"
     api "io.reactivex.rxjava2:rxandroid:2.1.1"
-
-    api "com.jakewharton.rxbinding3:rxbinding-core:3.0.0-alpha2"
-    api "com.jakewharton.rxbinding3:rxbinding-appcompat:3.0.0-alpha2"
-    api "com.jakewharton.rxbinding3:rxbinding-recyclerview:3.0.0-alpha2"
-    api "com.jakewharton.rxbinding3:rxbinding-swiperefreshlayout:3.0.0-alpha2"
 
     api "com.github.qingmei2.rxweaver:rxweaver:0.3.0"
 
@@ -90,16 +75,6 @@ dependencies {
     // arrow
     api "io.arrow-kt:arrow-core:0.7.3"
 
-    // okhttp
-    api "com.squareup.okhttp3:okhttp:3.12.1"
-    api "com.squareup.okhttp3:logging-interceptor:3.12.1"
-
-    // glide
-    api "com.github.bumptech.glide:glide:4.9.0"
-    kapt "com.github.bumptech.glide:compiler:4.9.0"
-
-    // logger
-    api "com.jakewharton.timber:timber:4.7.1"
 
     implementation 'com.blankj:utilcodex:1.23.7'
     implementation 'me.yokeyword:fragmentationx:1.0.1'
