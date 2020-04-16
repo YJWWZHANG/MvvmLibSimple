@@ -1,12 +1,11 @@
 package com.zqb.mvvmlib
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.zqb.mvvm.base.SimpleActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity(override val layoutId: Int = R.layout.activity_main) : SimpleActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+    override fun initDataAndView() {
+        loadRootFragment(R.id.fl_root, MainFragment())
     }
+
 }

@@ -23,6 +23,15 @@ android {
         }
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
 }
 
 dependencies {
@@ -35,4 +44,13 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation project(path: ':MvvmLib')
+
+    implementation "com.squareup.retrofit2:retrofit:2.7.1"
+    implementation "com.squareup.retrofit2:converter-gson:2.6.2"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.6.0"
+    implementation "com.squareup.okhttp3:okhttp:4.0.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.0.0"
+    implementation 'com.blankj:utilcodex:1.23.7'
+
+
 }
